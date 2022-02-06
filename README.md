@@ -1,42 +1,80 @@
-# 01 HTML, CSS, and Git: Code Refactor
+# Horiseon Website
+An Updated Version with Semantics and Accessibility Standards.
 
-One of the most common tasks for front-end and junior developers is to take existing code and refactor it to either meet a certain set of standards or implement a new technology. Web accessibility is an increasingly important consideration for businesses, ensuring that people with disabilities and/or socio-economic restrictions have access to their website. Accessible websites are better optimized for search engines, and help companies avoid litigation.
+## Description:
+This project's goal was to update this Website to meet the modern standards of Accessibility as well as organize its index structure to match the conventional best practices of Web Development.
 
-For this week's Challenge, your task is to refactor an existing webpage to make it accessible and to improve SEO. It's important to follow the Scout Rule when working with an existing codebase: Always leave the code a little cleaner than you found it.
+### 1-Project Record - List of items rectified during the process:
 
-To impress the imaginary client for this Challenge, you should go the extra mile and improve their codebase for long-term sustainability. Ensure that all links are functioning correctly and clean up the CSS to make it more efficient, such as by consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
+### 1.1.Semantics:
 
-## User Story
+        * The Website Title was rectified from “Website Title” to  “Horiseon”
 
-```
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our site is optimized for search engines
-```
+        * Description Comments were added to each of the following sections 
+            -Header/Menu
+            -Content
+            -Benefit Brand
+            -Footer
+        ## “Div” tags were adapted to the following standard tags
+            -header
+            -footer
+            -nav
+            -main
+            -Aside
+        * Synthesized the CSS Classes
+                -Search Engine; Online Reputation; Social Media;
+                    -Into Class= “Services”
+                -Aside div Classes
+                    -Into one single Class=“benefit”
+                -Changed .Benefit class to
+                    -Aside (tag)
+### 1.2.Accessibility
 
-## Acceptance Criteria
+“alt” attributes were included to every image
+<div class="hero" alt="Team Working Image"></div>
+6 other images
 
-```
-GIVEN a webpage that meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the icon and image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN I find that they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
-```
+##### Notes:
+* While adding the “alt” attribute into the Hero section the following problem was found: 
+    If the hero section image for some reason doesn't load the Image description inherited from the “alt” attribute would not appear to replace the “image”.
+    This problem was solved by inserting an “Image Element” containing the “Background-Image” inside the div tags and erasing the Background-Image from the styles.css--kept as a comment.
+    If needed, designs can be adjusted.
 
-## Review
+###### Requirements:
 
-You are required to submit the following for review:
+* Desktop Browsers for Viewing Content
+    -Internet Explorer 11
+    -Microsoft Edge (latest version)
+    -Google Chrome (latest version)
+    -Firefox (latest version)
+    -Safari (latest version)
+* Mobile Browsers for Viewing Content
+    -Safari in Apple iOS 12 or later
+    -Google Chrome (latest version) in Apple iOS 12 or later
+    -Google Chrome (latest version) in Android OS 6 or later
+* Required Browser Settings for Viewing Content
+    -JavaScript must be enabled
+    -Font downloads must be enabled
+    -Turn off Compatibility View in Internet Explorer
+* Screen Readers for Viewing Content
+    -JAWS (latest version)
+    -NVDA (latest version)
+    -VoiceOver (latest version)
+    -TalkBack (latest version)
 
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a professional README describing the project.
-
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+*List of Files:
+    -index.html
+    -readme.txt
+    -assets folder
+        -css folder
+            -styles.css
+            -images folder
+                -brand-awareness.png
+                -cost-management.png
+                -digital-marketing-meeting.jpg
+                -lead-generation.png
+                -online-reputation-management.jpg
+                -search-engine-optimization.jpg
+                -social-media-marketing.jpg
+# Credits
+	    Alan Anibal De Souza Ramos
