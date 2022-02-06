@@ -70,7 +70,7 @@ This project's goal was to update this Website to meet the modern standards of A
     -assets folder
         -css folder
             -styles.css
-            -images folder
+        -images folder
                 -brand-awareness.png
                 -cost-management.png
                 -digital-marketing-meeting.jpg
