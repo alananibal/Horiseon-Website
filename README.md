@@ -64,7 +64,7 @@ This project's goal was to update this Website to meet the modern standards of A
     -VoiceOver (latest version)
     -TalkBack (latest version)
 
-*List of Files:
+### List of Files:
     -index.html
     -readme.txt
     -assets folder
