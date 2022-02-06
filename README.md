@@ -30,9 +30,11 @@ This project's goal was to update this Website to meet the modern standards of A
                     -Aside (tag)
 ### 1.2.Accessibility
 
-“alt” attributes were included to every image
-<div class="hero" alt="Team Working Image"></div>
-6 other images
+        * The “alt” attributes were included to every image
+            -Hero Section
+            -3 Images on the main section
+            -3 images on the aside section
+
 
 ##### Notes:
 * While adding the “alt” attribute into the Hero section the following problem was found: 
